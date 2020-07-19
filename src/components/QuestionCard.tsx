@@ -1,6 +1,6 @@
 import React from 'react'
-import { promises } from 'dns'
 
+/// defining from the properties of the QuestionCard
 type properties = {
   question: string
   questionNr: number
@@ -10,6 +10,7 @@ type properties = {
   callback: any
 }
 
+// custom tag created for the QuestionCard
 const QuestionCard: React.FC<properties> = ({
   question,
   questionNr,
